@@ -46,7 +46,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
     font-family: lato;
 }
 .logo {
@@ -149,6 +149,7 @@ input:focus {
 @media (max-width: 940px) {
     .section {
         flex-direction: column;
+        margin-top: 20px !important;
     }
     nav {
         display: none;
